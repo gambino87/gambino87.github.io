@@ -1,0 +1,124 @@
+* {
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	background-image: url('drkbg.jpg');
+	background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+    background-attachment: fixed;
+	font-family: sans-serif;
+	color: #efefef;
+	margin: 20px;
+	display: block;
+}
+
+/* Title */
+h1 {
+
+}
+
+
+/* Post Title */
+h2 {
+	text-decoration: underline;
+}
+
+
+/* side card title */
+h3 {
+
+}
+
+
+/* Post Title Description */
+h4 {
+	font-weight: initial;
+	font-style: italic;
+	font-size: 12px;
+}
+
+a:link {
+	color: white;
+}
+a:visited {
+	color: white;
+}
+
+.title {
+	font-size: 48px;
+	font-style: bold;
+}
+
+.boxed {
+	border: #500B44 solid 3px;
+}
+
+.title-description {
+	font-style: italic;
+	font-size: 12px;
+}
+
+.banner {
+	background-color: #ecf2ef;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+.card {
+	z-index: 9;
+    background-color: rgba(0, 0, 0, .5);
+	padding: 20px;
+    margin: 20px;
+	min-width: 150px;
+}
+
+.Schedule p {
+	font-size: 14px;
+	padding: 5px;
+}
+
+.side {
+	text-align: center;
+}
+
+.leftcolumn {
+	float: left;
+	width: 20%;
+}
+
+.rightcolumn {
+	float: right;
+	width: 75%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+        background-size: cover;
+    }
+    body {
+	background-color: black;
+	background-image: url('drkbgand.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	}
+}
